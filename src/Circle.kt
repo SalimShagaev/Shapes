@@ -5,6 +5,7 @@ class Circle(
     val pi = 3.1415
 
     init{
+        println()
         println("Создан круг с радиусом $radius")
         println("area ${getArea()}")
         println("per = ${getPerimeter()}")
