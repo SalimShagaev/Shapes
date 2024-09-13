@@ -12,6 +12,7 @@ class Triangle(
         println("Создан треугольник с со сторонами $a, $b, $c")
         println("area = ${getArea()}")
         println("p = ${getPerimeter()}")
+        println("Добавленное поле")
     }
 
 
